@@ -6,7 +6,6 @@ import NotFoundPage from './components/notFoundPage';
 import './App.css'
 function App() {
   const sketchfabModelId = 'd045eaf534384d9eb926245a5a09ead4'; // Replace with your Sketchfab model ID
-
   return (
     <div className='App'>
     <BrowserRouter>

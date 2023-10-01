@@ -10,10 +10,11 @@ const Login = () => {
 
     window.location.href = authUrl;
   };
-
+//https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&client_id=678612018769-t6up75qeqummcqipijeni9spmakf11pd.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fredirect&scope=email%20profile&service=lso&o2v=1&theme=glif&flowName=GeneralOAuthFlow
+  //http://localhost:3000/redirect?code=4%2F0AfJohXkz0_LyuCs4efuB28pOhVKmyd8CpNETpomWMYOiMK2EpF1jklYmiK7a6Xd379aXUA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
   return (
     <>
-      <body suppressHydrationWarning={true} className="max-h-screen">
+      <body  className="max-h-screen">
         <section className=" min-h-screen flex items-center justify-center">
           <div className="flex-col bg-blue-900 p-10 rounded-2xl md:shadow-lg w-full items-center md:w-1/5 flex-col flex-col md:flex-col 	">
             <h2 className=" text-3xl  md:text-2xl lg:text-3xl font-bold text-white font-inter mb-6 sm:mb-8 md:mb-10 lg:mb- xl:mb-20 text-center">

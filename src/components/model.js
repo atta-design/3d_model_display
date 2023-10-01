@@ -23,8 +23,7 @@ const SketchfabViewer = ({ modelId }) => {
     iframe.width = "100%";
     iframe.height = "480px";
     iframe.src = `https://sketchfab.com/models/${modelId}/embed`;
-    iframe.frameBorder = "0";
-    iframe.allow = "autoplay; fullscreen; vr";
+    iframe.allow = "autoplay; fullscreen;";
     iframe.style.borderRadius = "5%"; 
     containerRef.current.appendChild(iframe);
   }, [modelId]);
@@ -91,11 +90,10 @@ const SketchfabViewer = ({ modelId }) => {
         </div>
         <div className="w-full	 border-b-2 mr-28 border-white"></div>
 
-        <div class="flex flex-col justify-center items-center h-screen ">
+        <div className="flex flex-col justify-center items-center h-screen ">
           <div
             className=" w-3/6  shadow-lg "
             ref={containerRef}
-            id="sketchfab-container"
           ></div>
         </div>
       </div>
